@@ -1,0 +1,19 @@
+BEGIN options
+  auxiliary  multiplier
+  AUXMULTNAME  multiplier
+  BOUNDNAMES
+  SAVE_FLOWS
+  TS6  FILEIN  mf6-tv_scenario-new_stress.ts
+END options
+ 
+BEGIN dimensions
+  MAXBOUND  348
+END dimensions
+ 
+BEGIN period  1
+# layer row col Q(column from ts file) multiplier boundname
+
+
+
+END period  1
+ 

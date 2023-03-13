@@ -1,0 +1,706 @@
+
+                   PEST RUN RECORD: CASE pest-tv_hist
+
+
+PEST Version: 17.3
+
+
+PEST run mode:-
+
+   Regularisation mode
+
+
+Case dimensions:-
+
+   Number of parameters                           :  3424
+   Number of adjustable parameters                :   796
+   Number of parameter groups                     :    26
+   Number of observations                         : 31655
+   Number of prior estimates                      :  4883
+
+
+Model command line(s):-
+
+   model.bat
+
+
+Jacobian command line:-
+
+   na
+
+
+Model interface files:-
+
+   Templates:
+      input-irr_lands-et_factor.dat.tpl
+      input-irr_lands-infil_max_factors-irr.dat.tpl
+      input-irr_lands-infil_max_factors-semi.dat.tpl
+      input-irr_lands-infil_props-irr.dat.tpl
+      input-irr_lands-infil_props-semi.dat.tpl
+      input-irr_lands-leakage_distribution.dat.tpl
+      input-irr_lands-leakage_props.dat.tpl
+      input-irr_lands-runoff_factors.dat.tpl
+      input-irr_lands-ss_factors.dat.tpl
+      mf6-tv_hist-lake_lowell.ghb.tpl
+      mf6-tv_hist-ny_canal.riv.tpl
+      mf6-tv_hist-ny_canal_leakage.ts.tpl
+      mf6-tv_hist-tributary_underflow-deep.wel.tpl
+      mf6-tv_hist-tributary_underflow.wel.tpl
+      mf6-tv_hist-tributary_underflow_rates-deep.ts.tpl
+      mf6-tv_hist-tributary_underflow_rates_ss.ts.tpl
+      mf6-tv_hist.drn.tpl
+      mf6-tv_hist.riv.tpl
+      utils-hk1_pp.dat.tpl
+      utils-hk2_pp.dat.tpl
+      utils-hk3_pp.dat.tpl
+      utils-hk4_pp.dat.tpl
+      utils-hk5_pp.dat.tpl
+      utils-hk6_pp.dat.tpl
+      utils-ss1_pp.dat.tpl
+      utils-ss2_pp.dat.tpl
+      utils-ss3_pp.dat.tpl
+      utils-ss4_pp.dat.tpl
+      utils-ss5_pp.dat.tpl
+      utils-ss6_pp.dat.tpl
+      utils-vk1_pp.dat.tpl
+      utils-vk2_pp.dat.tpl
+      utils-vk3_pp.dat.tpl
+      utils-vk4_pp.dat.tpl
+      utils-vk5_pp.dat.tpl
+      utils-vk6_pp.dat.tpl
+   for model input files:
+      input-irr_lands-et_factor.dat
+      input-irr_lands-infil_max_factors-irr.dat
+      input-irr_lands-infil_max_factors-semi.dat
+      input-irr_lands-infil_props-irr.dat
+      input-irr_lands-infil_props-semi.dat
+      input-irr_lands-leakage_distribution.dat
+      input-irr_lands-leakage_props.dat
+      input-irr_lands-runoff_factors.dat
+      input-irr_lands-ss_factors.dat
+      mf6-tv_hist-lake_lowell.ghb
+      mf6-tv_hist-ny_canal.riv
+      mf6-tv_hist-ny_canal_leakage.ts
+      mf6-tv_hist-tributary_underflow-deep.wel
+      mf6-tv_hist-tributary_underflow.wel
+      mf6-tv_hist-tributary_underflow_rates-deep.ts
+      mf6-tv_hist-tributary_underflow_rates_ss.ts
+      mf6-tv_hist.drn
+      mf6-tv_hist.riv
+      utils-hk1_pp.dat
+      utils-hk2_pp.dat
+      utils-hk3_pp.dat
+      utils-hk4_pp.dat
+      utils-hk5_pp.dat
+      utils-hk6_pp.dat
+      utils-ss1_pp.dat
+      utils-ss2_pp.dat
+      utils-ss3_pp.dat
+      utils-ss4_pp.dat
+      utils-ss5_pp.dat
+      utils-ss6_pp.dat
+      utils-vk1_pp.dat
+      utils-vk2_pp.dat
+      utils-vk3_pp.dat
+      utils-vk4_pp.dat
+      utils-vk5_pp.dat
+      utils-vk6_pp.dat
+
+   (Parameter values written using single precision protocol.)
+   (Decimal point always included.)
+
+   Instruction files:
+      sim_equiv-tv_hist-drn_obs.csv.ins
+      sim_equiv-tv_hist-lowell_obs.csv.ins
+      sim_equiv-tv_hist-ny_canal_riv_obs.csv.ins
+      sim_equiv-tv_hist-obs_wells.out.ins
+      sim_equiv-tv_hist-riv_and_drn_seepage.out.ins
+      sim_equiv-tv_hist-temporal_drain_diff.out.ins
+      sim_equiv-tv_hist-temporal_head_diff.out.ins
+      sim_equiv-tv_hist-temporal_lowell_diff.out.ins
+      sim_equiv-tv_hist-vert_head_diff.out.ins
+   for reading model output files:
+      sim_equiv-tv_hist-drn_obs.csv
+      sim_equiv-tv_hist-lowell_obs.csv
+      sim_equiv-tv_hist-ny_canal_riv_obs.csv
+      sim_equiv-tv_hist-obs_wells.out
+      sim_equiv-tv_hist-riv_and_drn_seepage.out
+      sim_equiv-tv_hist-temporal_drain_diff.out
+      sim_equiv-tv_hist-temporal_head_diff.out
+      sim_equiv-tv_hist-temporal_lowell_diff.out
+      sim_equiv-tv_hist-vert_head_diff.out
+
+
+PEST-to-model message file:-
+
+   na
+
+
+Singular value decomposition:-
+
+   Perform SVD on XtQX or Q^(1/2)X               : XtQX
+   Max. number of singular values to employ      : 46
+   Ratio of lowest/highest singular value        :  1.000000E-05
+   Record eigenvectors in SVD file               : yes
+
+
+Derivatives calculation:-
+
+Param        Increment   Increment   Increment   Forward or   Multiplier  Method
+group        type                    low bound   central      (central)   (central)
+hk           relative    1.0000E-02   none         switch       2.000     parabolic
+vk           relative    1.0000E-02   none         switch       2.000     parabolic
+ss           relative    1.0000E-02   none         switch       2.000     parabolic
+infacsem     relative    1.0000E-02   none         switch       2.000     parabolic
+mxfacsem     relative    1.0000E-02   none         switch       2.000     parabolic
+etfac        relative    1.0000E-02   none         switch       2.000     parabolic
+mxfacirr     relative    1.0000E-02   none         switch       2.000     parabolic
+infacirr     relative    1.0000E-02   none         switch       2.000     parabolic
+runfac       relative    1.0000E-02   none         switch       2.000     parabolic
+leakfac      relative    1.0000E-02   none         switch       2.000     parabolic
+drncnd       relative    1.0000E-02   none         switch       2.000     parabolic
+rivcond      relative    1.0000E-02   none         switch       2.000     parabolic
+tribmult     relative    1.0000E-02   none         switch       2.000     parabolic
+ssfac        relative    1.0000E-02   none         switch       2.000     parabolic
+nyleakfac    relative    1.0000E-02   none         switch       2.000     parabolic
+tribdp       relative    1.0000E-02   none         switch       2.000     parabolic
+infacsemgbl  relative    1.0000E-02   none         switch       2.000     parabolic
+leakfacgbl   relative    1.0000E-02   none         switch       2.000     parabolic
+mxfacsemgbl  relative    1.0000E-02   none         switch       2.000     parabolic
+leakdistprop relative    1.0000E-02   none         switch       2.000     parabolic
+nycanalcnd   relative    1.0000E-02   none         switch       2.000     parabolic
+infacirrgbl  relative    1.0000E-02   none         switch       2.000     parabolic
+runfacgbl    relative    1.0000E-02   none         switch       2.000     parabolic
+mxfacirrgbl  relative    1.0000E-02   none         switch       2.000     parabolic
+lowellcond   relative    1.0000E-02   none         switch       2.000     parabolic
+etfacgbl     relative    1.0000E-02   none         switch       2.000     parabolic
+
+Derivatives problem rectification through split slope analysis:-
+
+Param        Slope inaction      Rel. slope diff      Action
+group        threshold           threshold
+hk           1.0000E-05            0.5000            use_smaller
+vk           1.0000E-05            0.5000            use_smaller
+ss           1.0000E-05            0.5000            use_smaller
+infacsem     1.0000E-05            0.5000            use_smaller
+mxfacsem     1.0000E-05            0.5000            use_smaller
+etfac        1.0000E-05            0.5000            use_smaller
+mxfacirr     1.0000E-05            0.5000            use_smaller
+infacirr     1.0000E-05            0.5000            use_smaller
+runfac       1.0000E-05            0.5000            use_smaller
+leakfac      1.0000E-05            0.5000            use_smaller
+drncnd       1.0000E-05            0.5000            use_smaller
+rivcond      1.0000E-05            0.5000            use_smaller
+tribmult     1.0000E-05            0.5000            use_smaller
+ssfac        1.0000E-05            0.5000            use_smaller
+nyleakfac    1.0000E-05            0.5000            use_smaller
+tribdp       1.0000E-05            0.5000            use_smaller
+infacsemgbl  1.0000E-05            0.5000            use_smaller
+leakfacgbl   1.0000E-05            0.5000            use_smaller
+mxfacsemgbl  1.0000E-05            0.5000            use_smaller
+leakdistprop 1.0000E-05            0.5000            use_smaller
+nycanalcnd   1.0000E-05            0.5000            use_smaller
+infacirrgbl  1.0000E-05            0.5000            use_smaller
+runfacgbl    1.0000E-05            0.5000            use_smaller
+mxfacirrgbl  1.0000E-05            0.5000            use_smaller
+lowellcond   1.0000E-05            0.5000            use_smaller
+etfacgbl     1.0000E-05            0.5000            use_smaller
+
+
+Parameter definitions:-
+
+This information not provided as non-verbose run record file requested.
+
+
+Prior information:-
+
+This information not provided as non-verbose run record file requested.
+
+
+Observations:-
+
+This information not provided as non-verbose run record file requested.
+
+
+Control settings:-
+
+   Initial lambda                                               :  20.000    
+   Lambda adjustment factor                                     : iteration-dependent
+   Value of variable governing adjustment                       : -3.0000    
+   Sufficient new/old phi ratio per optimisation iteration      : 0.30000    
+   Limiting relative phi reduction between lambdas              : 1.00000E-02
+   Maximum trial lambdas per iteration                          :   7
+   Forgive model run failure during lamda testing               : yes
+   Forgive model run failure during Jacobian runs               : no
+
+   Perform Broyden's update of Jacobian matrix                  : yes
+   Maximum number of updates per iteration                      : 999
+   Undertake observation re-referencing                         : no
+
+   Maximum  factor  parameter change (factor-limited changes)   :  10.000
+   Maximum relative parameter change (relative-limited changes) : na
+   Fraction of initial parameter values used in computing
+   change limit for near-zero parameters                        : 1.00000E-03
+   Allow bending of parameter upgrade vector                    : yes
+   Allow parameters to stick to their bounds                    : no
+
+   Relative phi reduction below which to begin use of
+   central derivatives                                          : 0.10000             
+   Iteration at which to first consider derivatives switch      :  10
+   New-to-old phi to commence split slope deriv analysis        : 1.1000
+
+   Relative phi reduction indicating convergence                : 0.10000E-01
+   Number of phi values required within this range              :   3
+   Maximum number of consecutive failures to lower phi          :   3
+   Minimal relative parameter change indicating convergence     : 0.10000E-01
+   Number of consecutive iterations with minimal param change   :   3
+   Maximum number of optimisation iterations                    :   0
+
+   Attempt automatic user intervention                          : no
+
+   Attempt reuse of parameter sensitivities                     : no
+
+   Scale parameters by their bounds                             : no
+
+
+File saving options: -
+
+   Save best JCO file                                           : yes
+   Save multiple JCO files                                      : no
+   Save multiple REI files                                      : yes
+   Save multiple PAR files                                      : yes
+
+
+Extra settings for regularisation mode:-
+
+   Target/current measurement objective function ratio          : 0.10000    
+   Acceptable/target measurement objective function ratio       :  1.1000    
+   Minimum target measurement objective function value          : 4.00000E+06
+   Terminate inversion when measurement obj. fn. below target   : no
+
+   Initial regularisation weight factor                         :  1.0000    
+   Minimum regularisation weight factor                         : 1.00000E-10
+   Maximum regularisation weight factor                         : 1.00000E+10
+
+   Weight factor solution adjustment ratio                      :  1.3000    
+   Weight factor solution tolerance                             : 1.00000E-02
+   Automatic inter-regularisation group weights adjustment      : yes
+   Use sensitivities or number of items                         : sensitivities
+
+   Implement memory conservation                                : no
+   Declare all regularisation information as linear             : yes
+
+
+                            OPTIMISATION RECORD
+
+
+INITIAL CONDITIONS: 
+   Current regularisation weight factor                     =   1.0000    
+   Current value of measurement objective function          =  8.62244E+06
+   Current value of regularisation objective function       =  4.13294E-02
+
+   Sum of squared weighted residuals (ie phi)               =  8.62244E+06
+   Contribution to phi from observation group "obs_well"    =  1.27474E+06
+   Contribution to phi from observation group "drn"         =  6.69018E+05
+   Contribution to phi from observation group "lowell"      =  4.63870E+05
+   Contribution to phi from observation group "nyriv"       =   1145.4    
+   Contribution to phi from observation group "vrt_hd_df"   =  1.03965E+06
+   Contribution to phi from observation group "tmp_hd_df"   =  1.54137E+06
+   Contribution to phi from observation group "rv_drn"      =  1.20079E+06
+   Contribution to phi from observation group "lwll_diff"   =  1.11412E+06
+   Contribution to phi from observation group "drn_diff"    =  1.31775E+06
+   Contribution to phi from observation group "regul_hk1"   =  1.54513E-06
+   Contribution to phi from observation group "regul_hk3"   =  2.78136E-03
+   Contribution to phi from observation group "regul_hk4"   =  1.14665E-02
+   Contribution to phi from observation group "regul_hk5"   =  4.60669E-03
+   Contribution to phi from observation group "regul_hk6"   =  1.57843E-02
+   Contribution to phi from observation group "regul_ss1"   =  2.39296E-09
+   Contribution to phi from observation group "regul_ss3"   =  1.17626E-03
+   Contribution to phi from observation group "regul_ss4"   =  1.61131E-03
+   Contribution to phi from observation group "regul_ss5"   =  1.76125E-03
+   Contribution to phi from observation group "regul_ss6"   =  2.14019E-03
+   Contribution to phi from observation group "regul_vk1"   =  7.90836E-33
+   Contribution to phi from observation group "regul_vk3"   =  1.43141E-33
+   Contribution to phi from observation group "regul_vk4"   =  4.57637E-33
+   Contribution to phi from observation group "regul_vk5"   =  1.02541E-33
+   Contribution to phi from observation group "regul_vk6"   =  1.79176E-33
+   Contribution to phi from observation group "regul_riv"   =  4.51331E-11
+
+   Optimisation complete: optimisation iteration limit of   0 realized.
+   Total model calls:      1
+
+
+                            OPTIMISATION RESULTS
+
+
+Parameters ----->
+
+This information not provided as non-verbose run record file requested.
+
+See file pest-tv_hist.sen for parameter sensitivities.
+Note that these sensitivities include effects of regularisation observations.
+
+
+Regularisation Weight Factor ----->
+
+Optimised regularisation weight factor =  1.0000    
+
+Pertinent observation and prior information weights shown below are 
+calculated using  this weight factor.
+
+Note that the target measurement objective function was not achieved.
+
+
+Observations ----->
+
+This information not provided as non-verbose run record file requested.
+
+
+Prior information ----->
+
+This information not provided as non-verbose run record file requested.
+
+See file pest-tv_hist.res for more details of residuals in graph-ready format.
+
+See file pest-tv_hist.seo for composite observation sensitivities.
+
+
+Objective function ----->
+
+  Sum of squared weighted residuals (ie phi)                =  8.62244E+06
+  Contribution to phi from observation group "obs_well"     =  1.27474E+06
+  Contribution to phi from observation group "drn"          =  6.69018E+05
+  Contribution to phi from observation group "lowell"       =  4.63870E+05
+  Contribution to phi from observation group "nyriv"        =   1145.4    
+  Contribution to phi from observation group "vrt_hd_df"    =  1.03965E+06
+  Contribution to phi from observation group "tmp_hd_df"    =  1.54137E+06
+  Contribution to phi from observation group "rv_drn"       =  1.20079E+06
+  Contribution to phi from observation group "lwll_diff"    =  1.11412E+06
+  Contribution to phi from observation group "drn_diff"     =  1.31775E+06
+  Contribution to phi from observation group "regul_hk1"    =  1.54513E-06
+  Contribution to phi from observation group "regul_hk3"    =  2.78136E-03
+  Contribution to phi from observation group "regul_hk4"    =  1.14665E-02
+  Contribution to phi from observation group "regul_hk5"    =  4.60669E-03
+  Contribution to phi from observation group "regul_hk6"    =  1.57843E-02
+  Contribution to phi from observation group "regul_ss1"    =  2.39296E-09
+  Contribution to phi from observation group "regul_ss3"    =  1.17626E-03
+  Contribution to phi from observation group "regul_ss4"    =  1.61131E-03
+  Contribution to phi from observation group "regul_ss5"    =  1.76125E-03
+  Contribution to phi from observation group "regul_ss6"    =  2.14019E-03
+  Contribution to phi from observation group "regul_vk1"    =  7.90836E-33
+  Contribution to phi from observation group "regul_vk3"    =  1.43141E-33
+  Contribution to phi from observation group "regul_vk4"    =  4.57637E-33
+  Contribution to phi from observation group "regul_vk5"    =  1.02541E-33
+  Contribution to phi from observation group "regul_vk6"    =  1.79176E-33
+  Contribution to phi from observation group "regul_riv"    =  4.51331E-11
+
+  Optimised measurement objective function                  =  8.62244E+06
+  Optimised regularisation weight factor                    =   1.0000    
+  Optimised regularisation objective function               =  4.13294E-02
+
+
+Correlation Coefficient ----->
+
+  Correlation coefficient                                   =  0.99923    
+  (Includes measurement observations only.)
+
+
+Analysis of residuals ----->
+
+  All residuals:-
+     Number of residuals with non-zero weight                       = 26670
+     Mean value of non-zero weighted residuals                      =   1.495    
+     Maximum weighted residual [observation "lowell_sp289-sp286"]   =   621.1    
+     Minimum weighted residual [observation "drn09_sp335-sp327"]    =  -435.1    
+     Standard variance of weighted residuals                        =   333.2    
+     Standard error of weighted residuals                           =   18.26    
+
+     Note: the above variance was obtained by dividing the objective 
+     function by the number of system degrees of freedom (ie. number of 
+     observations with non-zero weight plus number of prior information 
+     articles with non-zero weight minus the number of adjustable parameters.)
+     If the degrees of freedom is negative the divisor becomes 
+     the number of observations with non-zero weight plus the number of 
+     prior information items with non-zero weight.
+
+  Residuals for observation group "obs_well":-
+     Number of residuals with non-zero weight                       = 15101
+     Mean value of non-zero weighted residuals                      =   1.667    
+     Maximum weighted residual [observation "ow0154_sp284"]         =   119.2    
+     Minimum weighted residual [observation "ow0275_sp147"]         =  -99.36    
+     "Variance" of weighted residuals                               =   84.41    
+     "Standard error" of weighted residuals                         =   9.188    
+
+     Note: the above "variance" was obtained by dividing the sum of squared 
+     residuals by the number of items with non-zero weight.
+
+  Residuals for observation group "drn":-
+     Number of residuals with non-zero weight                       =   449
+     Mean value of non-zero weighted residuals                      =  -7.705    
+     Maximum weighted residual [observation "drn09_sp107"]          =   141.4    
+     Minimum weighted residual [observation "drn09_sp349"]          =  -241.4    
+     "Variance" of weighted residuals                               =   1490.    
+     "Standard error" of weighted residuals                         =   38.60    
+
+     Note: the above "variance" was obtained by dividing the sum of squared 
+     residuals by the number of items with non-zero weight.
+
+  Residuals for observation group "lowell":-
+     Number of residuals with non-zero weight                       =   117
+     Mean value of non-zero weighted residuals                      =  -32.02    
+     Maximum weighted residual [observation "lowell_sp135"]         =   101.1    
+     Minimum weighted residual [observation "lowell_sp279"]         =  -283.0    
+     "Variance" of weighted residuals                               =   3965.    
+     "Standard error" of weighted residuals                         =   62.97    
+
+     Note: the above "variance" was obtained by dividing the sum of squared 
+     residuals by the number of items with non-zero weight.
+
+  Residuals for observation group "nyriv":-
+     Number of residuals with non-zero weight                       =   264
+     Mean value of non-zero weighted residuals                      =   1.539    
+     Maximum weighted residual [observation "nyriv_sp112"]          =   4.905    
+     Minimum weighted residual [observation "nyriv_sp287"]          = -5.0845E-02
+     "Variance" of weighted residuals                               =   4.339    
+     "Standard error" of weighted residuals                         =   2.083    
+
+     Note: the above "variance" was obtained by dividing the sum of squared 
+     residuals by the number of items with non-zero weight.
+
+  Residuals for observation group "vrt_hd_df":-
+     Number of residuals with non-zero weight                       =  2224
+     Mean value of non-zero weighted residuals                      =   7.156    
+     Maximum weighted residual [observation "ow0081-ow0323_sp190"]  =   125.6    
+     Minimum weighted residual [observation "ow1473-ow1413_sp318"]  =  -120.9    
+     "Variance" of weighted residuals                               =   467.5    
+     "Standard error" of weighted residuals                         =   21.62    
+
+     Note: the above "variance" was obtained by dividing the sum of squared 
+     residuals by the number of items with non-zero weight.
+
+  Residuals for observation group "tmp_hd_df":-
+     Number of residuals with non-zero weight                       =  3008
+     Mean value of non-zero weighted residuals                      =  0.1960    
+     Maximum weighted residual [observation "ow0596_sp316-sp309"]   =   161.1    
+     Minimum weighted residual [observation "ow0322_sp100-sp093"]   =  -427.8    
+     "Variance" of weighted residuals                               =   512.4    
+     "Standard error" of weighted residuals                         =   22.64    
+
+     Note: the above "variance" was obtained by dividing the sum of squared 
+     residuals by the number of items with non-zero weight.
+
+  Residuals for observation group "rv_drn":-
+     Number of residuals with non-zero weight                       =   432
+     Mean value of non-zero weighted residuals                      =   4.360    
+     Maximum weighted residual [observation "riv03_x_sp134"]        =   553.9    
+     Minimum weighted residual [observation "riv06;riv07_x_sp133"]  =  -60.66    
+     "Variance" of weighted residuals                               =   2780.    
+     "Standard error" of weighted residuals                         =   52.72    
+
+     Note: the above "variance" was obtained by dividing the sum of squared 
+     residuals by the number of items with non-zero weight.
+
+  Residuals for observation group "lwll_diff":-
+     Number of residuals with non-zero weight                       =    18
+     Mean value of non-zero weighted residuals                      =   169.9    
+     Maximum weighted residual [observation "lowell_sp289-sp286"]   =   621.1    
+     Minimum weighted residual [observation "lowell_sp181-sp178"]   =  -106.2    
+     "Variance" of weighted residuals                               =  6.1896E+04
+     "Standard error" of weighted residuals                         =   248.8    
+
+     Note: the above "variance" was obtained by dividing the sum of squared 
+     residuals by the number of items with non-zero weight.
+
+  Residuals for observation group "drn_diff":-
+     Number of residuals with non-zero weight                       =   174
+     Mean value of non-zero weighted residuals                      =  0.2087    
+     Maximum weighted residual [observation "drn09_sp183-sp179"]    =   333.4    
+     Minimum weighted residual [observation "drn09_sp335-sp327"]    =  -435.1    
+     "Variance" of weighted residuals                               =   7573.    
+     "Standard error" of weighted residuals                         =   87.02    
+
+     Note: the above "variance" was obtained by dividing the sum of squared 
+     residuals by the number of items with non-zero weight.
+
+  Residuals for observation group "regul_hk1":-
+     Number of residuals with non-zero weight                       =   354
+     Mean value of non-zero weighted residuals                      =  5.7288E-06
+     Maximum weighted residual [observation "pcc_941"]              =  2.8788E-04
+     Minimum weighted residual [observation "pcc_927"]              = -2.8491E-04
+     "Variance" of weighted residuals                               =  4.3648E-09
+     "Standard error" of weighted residuals                         =  6.6066E-05
+
+     Note: the above "variance" was obtained by dividing the sum of squared 
+     residuals by the number of items with non-zero weight.
+
+  Residuals for observation group "regul_hk3":-
+     Number of residuals with non-zero weight                       =   307
+     Mean value of non-zero weighted residuals                      =  7.0804E-04
+     Maximum weighted residual [observation "pcc_3306"]             =  1.6525E-02
+     Minimum weighted residual [observation "pcc_3236"]             = -1.8773E-02
+     "Variance" of weighted residuals                               =  9.0598E-06
+     "Standard error" of weighted residuals                         =  3.0100E-03
+
+     Note: the above "variance" was obtained by dividing the sum of squared 
+     residuals by the number of items with non-zero weight.
+
+  Residuals for observation group "regul_hk4":-
+     Number of residuals with non-zero weight                       =   330
+     Mean value of non-zero weighted residuals                      =  1.8977E-04
+     Maximum weighted residual [observation "pcc_4498"]             =  3.7671E-02
+     Minimum weighted residual [observation "pcc_4490"]             = -3.0930E-02
+     "Variance" of weighted residuals                               =  3.4747E-05
+     "Standard error" of weighted residuals                         =  5.8947E-03
+
+     Note: the above "variance" was obtained by dividing the sum of squared 
+     residuals by the number of items with non-zero weight.
+
+  Residuals for observation group "regul_hk5":-
+     Number of residuals with non-zero weight                       =   280
+     Mean value of non-zero weighted residuals                      =  4.4760E-04
+     Maximum weighted residual [observation "pcc_6120"]             =  2.9284E-02
+     Minimum weighted residual [observation "pcc_6098"]             = -4.0007E-02
+     "Variance" of weighted residuals                               =  1.6452E-05
+     "Standard error" of weighted residuals                         =  4.0562E-03
+
+     Note: the above "variance" was obtained by dividing the sum of squared 
+     residuals by the number of items with non-zero weight.
+
+  Residuals for observation group "regul_hk6":-
+     Number of residuals with non-zero weight                       =   354
+     Mean value of non-zero weighted residuals                      =  2.3348E-04
+     Maximum weighted residual [observation "pcc_7496"]             =  4.7048E-02
+     Minimum weighted residual [observation "pcc_7482"]             = -5.4876E-02
+     "Variance" of weighted residuals                               =  4.4588E-05
+     "Standard error" of weighted residuals                         =  6.6774E-03
+
+     Note: the above "variance" was obtained by dividing the sum of squared 
+     residuals by the number of items with non-zero weight.
+
+  Residuals for observation group "regul_ss1":-
+     Number of residuals with non-zero weight                       =   354
+     Mean value of non-zero weighted residuals                      =  1.6154E-07
+     Maximum weighted residual [observation "pcc_9354"]             =  2.8398E-05
+     Minimum weighted residual [observation "pcc_9239"]             = -1.7240E-05
+     "Variance" of weighted residuals                               =  6.7598E-12
+     "Standard error" of weighted residuals                         =  2.6000E-06
+
+     Note: the above "variance" was obtained by dividing the sum of squared 
+     residuals by the number of items with non-zero weight.
+
+  Residuals for observation group "regul_ss3":-
+     Number of residuals with non-zero weight                       =   307
+     Mean value of non-zero weighted residuals                      = -3.7358E-04
+     Maximum weighted residual [observation "pcc_12103"]            =  9.0307E-03
+     Minimum weighted residual [observation "pcc_11954"]            = -9.2326E-03
+     "Variance" of weighted residuals                               =  3.8315E-06
+     "Standard error" of weighted residuals                         =  1.9574E-03
+
+     Note: the above "variance" was obtained by dividing the sum of squared 
+     residuals by the number of items with non-zero weight.
+
+  Residuals for observation group "regul_ss4":-
+     Number of residuals with non-zero weight                       =   330
+     Mean value of non-zero weighted residuals                      = -6.9486E-05
+     Maximum weighted residual [observation "pcc_13295"]            =  1.1757E-02
+     Minimum weighted residual [observation "pcc_12816"]            = -9.7571E-03
+     "Variance" of weighted residuals                               =  4.8828E-06
+     "Standard error" of weighted residuals                         =  2.2097E-03
+
+     Note: the above "variance" was obtained by dividing the sum of squared 
+     residuals by the number of items with non-zero weight.
+
+  Residuals for observation group "regul_ss5":-
+     Number of residuals with non-zero weight                       =   280
+     Mean value of non-zero weighted residuals                      = -6.4094E-05
+     Maximum weighted residual [observation "pcc_14560"]            =  1.1849E-02
+     Minimum weighted residual [observation "pcc_14910"]            = -1.1444E-02
+     "Variance" of weighted residuals                               =  6.2902E-06
+     "Standard error" of weighted residuals                         =  2.5080E-03
+
+     Note: the above "variance" was obtained by dividing the sum of squared 
+     residuals by the number of items with non-zero weight.
+
+  Residuals for observation group "regul_ss6":-
+     Number of residuals with non-zero weight                       =   354
+     Mean value of non-zero weighted residuals                      = -2.1801E-04
+     Maximum weighted residual [observation "pcc_16179"]            =  1.0288E-02
+     Minimum weighted residual [observation "pcc_15949"]            = -1.4337E-02
+     "Variance" of weighted residuals                               =  6.0457E-06
+     "Standard error" of weighted residuals                         =  2.4588E-03
+
+     Note: the above "variance" was obtained by dividing the sum of squared 
+     residuals by the number of items with non-zero weight.
+
+  Residuals for observation group "regul_vk1":-
+     Number of residuals with non-zero weight                       =   354
+     Mean value of non-zero weighted residuals                      =  3.4416E-19
+     Maximum weighted residual [observation "pcc_17846"]            =  2.5573E-17
+     Minimum weighted residual [observation "pcc_17956"]            = -2.0635E-17
+     "Variance" of weighted residuals                               =  2.2340E-35
+     "Standard error" of weighted residuals                         =  4.7265E-18
+
+     Note: the above "variance" was obtained by dividing the sum of squared 
+     residuals by the number of items with non-zero weight.
+
+  Residuals for observation group "regul_vk3":-
+     Number of residuals with non-zero weight                       =   307
+     Mean value of non-zero weighted residuals                      = -2.4888E-20
+     Maximum weighted residual [observation "pcc_20322"]            =  8.7098E-18
+     Minimum weighted residual [observation "pcc_19916"]            = -1.2851E-17
+     "Variance" of weighted residuals                               =  4.6626E-36
+     "Standard error" of weighted residuals                         =  2.1593E-18
+
+     Note: the above "variance" was obtained by dividing the sum of squared 
+     residuals by the number of items with non-zero weight.
+
+  Residuals for observation group "regul_vk4":-
+     Number of residuals with non-zero weight                       =   330
+     Mean value of non-zero weighted residuals                      =  3.0616E-20
+     Maximum weighted residual [observation "pcc_21519"]            =  4.2791E-17
+     Minimum weighted residual [observation "pcc_21262"]            = -1.5756E-17
+     "Variance" of weighted residuals                               =  1.3868E-35
+     "Standard error" of weighted residuals                         =  3.7239E-18
+
+     Note: the above "variance" was obtained by dividing the sum of squared 
+     residuals by the number of items with non-zero weight.
+
+  Residuals for observation group "regul_vk5":-
+     Number of residuals with non-zero weight                       =   280
+     Mean value of non-zero weighted residuals                      =  4.2354E-20
+     Maximum weighted residual [observation "pcc_22728"]            =  1.2094E-17
+     Minimum weighted residual [observation "pcc_22742"]            = -1.6228E-17
+     "Variance" of weighted residuals                               =  3.6622E-36
+     "Standard error" of weighted residuals                         =  1.9137E-18
+
+     Note: the above "variance" was obtained by dividing the sum of squared 
+     residuals by the number of items with non-zero weight.
+
+  Residuals for observation group "regul_vk6":-
+     Number of residuals with non-zero weight                       =   354
+     Mean value of non-zero weighted residuals                      =  2.2945E-20
+     Maximum weighted residual [observation "pcc_24377"]            =  1.7321E-17
+     Minimum weighted residual [observation "pcc_24387"]            = -1.2277E-17
+     "Variance" of weighted residuals                               =  5.0615E-36
+     "Standard error" of weighted residuals                         =  2.2498E-18
+
+     Note: the above "variance" was obtained by dividing the sum of squared 
+     residuals by the number of items with non-zero weight.
+
+  Residuals for observation group "regul_riv":-
+     Number of residuals with non-zero weight                       =     8
+     Mean value of non-zero weighted residuals                      =  2.3066E-08
+     Maximum weighted residual [observation "pcc_25173"]            =  3.5025E-06
+     Minimum weighted residual [observation "pcc_25172"]            = -4.1622E-06
+     "Variance" of weighted residuals                               =  5.6416E-12
+     "Standard error" of weighted residuals                         =  2.3752E-06
+
+     Note: the above "variance" was obtained by dividing the sum of squared 
+     residuals by the number of items with non-zero weight.
+
+
+Covariance and other statistical matrices cannot be determined:-
+Some form or regularisation was implemented so these are not applicable.
+
+Use the PREDUNC7 utility to obtain a full posterior covariance matrix.
+

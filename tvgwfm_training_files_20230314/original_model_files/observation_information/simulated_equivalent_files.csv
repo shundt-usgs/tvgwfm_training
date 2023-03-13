@@ -1,0 +1,9 @@
+observation group	simulated equivalent file in model_pest_and_results
+drain seepage	sim_equiv-tv_hist-drn_obs.csv
+lowell seepage	sim_equiv-tv_hist-lowell_obs.csv
+water level	sim_equiv-tv_hist-obs_wells.out
+river and unmeasured drain seepage	sim_equiv-tv_hist-riv_and_drn_seepage.out
+drain seepage temporal difference	sim_equiv-tv_hist-temporal_drain_diff.out
+water level temporal difference	sim_equiv-tv_hist-temporal_head_diff.out
+lowell seepage temporal difference	sim_equiv-tv_hist-temporal_lowell_diff.out
+water level vertical difference	sim_equiv-tv_hist-vert_head_diff.out

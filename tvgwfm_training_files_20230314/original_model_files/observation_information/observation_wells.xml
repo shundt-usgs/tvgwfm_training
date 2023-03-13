@@ -1,0 +1,390 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Stephen A. Hundt</origin>
+        <origin/>
+        <origin/>
+        <origin/>
+        <pubdate>20220830</pubdate>
+        <title>Observation well locations and names for the Treasure Valley Groundwater Flow Model</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Denver, CO</pubplace>
+          <publish>U.S. Geological Survey - ScienceBase</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.5066/P9U6OOPH</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This file provides the locations for observation wells that are located within the model area along with name and screened interval information. </abstract>
+      <purpose>This data release presents the data and model archive for the groundwater flow model of the Treasure Valley aquifer system, southwestern Idaho, 1986-2015. The data release contains all input and output files for the model simulation, scripts used in the development of the groundwater flow model, and source code for custom programs developed by the author for this study. Descriptions of the data in each directory are given to facilitate understanding of this data release. File descriptions are provided for select files to provide additional information that may be of use for understanding this data release. Support is provided for correcting errors in the data release and clarification of the modeling conducted by the U.S. Geological Survey. Users are encouraged to review the model documentation report to understand the purpose, construction, and limitations of this model.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>19860101</begdate>
+          <enddate>20151231</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-117.0393</westbc>
+        <eastbc>-115.8523</eastbc>
+        <northbc>44.0678</northbc>
+        <southbc>43.2407</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>inlandWaters</themekey>
+        <themekey>elevation</themekey>
+        <themekey>location</themekey>
+      </theme>
+      <theme>
+        <themekt>Alexandria Digital Library Feature Type Thesaurus</themekt>
+        <themekey/>
+      </theme>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>groundwater</themekey>
+      </theme>
+      <theme>
+        <themekt>none</themekt>
+        <themekey/>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey/>
+      </theme>
+      <place>
+        <placekt>Common geographic areas</placekt>
+        <placekey>Pacific Northwest</placekey>
+        <placekey>Mores Creek</placekey>
+        <placekey>Lucky Peak Lake</placekey>
+        <placekey>Boise</placekey>
+        <placekey>Idaho</placekey>
+        <placekey>United States</placekey>
+      </place>
+      <place>
+        <placekt>Geographic Names Information System (GNIS)</placekt>
+        <placekey>USA</placekey>
+        <placekey>Treasure Valley</placekey>
+        <placekey>Idaho</placekey>
+        <placekey>ID</placekey>
+        <placekey>Boise River</placekey>
+        <placekey>Payette River</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Although these data have been used by the U.S. Geological Survey, U.S. Department of the Interior, these data and information are provided with the understanding that they are not guaranteed to be usable, timely, accurate, or complete. Users are cautioned to consider carefully the provisional nature of these data and information before using them for decisions that concern personal or public safety or the conduct of business that involves substantial monetary or operational consequences. Neither the U.S. Government nor any agency thereof, nor any of their employees, contractors, or subcontractors, make any warranty, express or implied, nor assume any legal liability or responsibility for the accuracy, completeness, or usefulness of any data, software, information, apparatus, product, or process disclosed, nor represent that its use would not infringe on privately owned rights. Trade, firm, or product names and other references to non-USGS products and services are provided for information only and do not constitute endorsement or warranty, express or implied, by the USGS, USDOI, or U.S. Government, as to their suitability, content, usefulness, functioning, completeness, or accuracy.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Stephen A Hundt</cntper>
+          <cntorg>U.S. Geological Survey, NW-PACIFIC ISLAND REG</cntorg>
+        </cntperp>
+        <cntpos>Hydrologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>230 Collins Road</address>
+          <city>Boise</city>
+          <state>ID</state>
+          <postal>83702</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>208-387-1390</cntvoice>
+        <cntfax>208-387-1372</cntfax>
+        <cntemail>shundt@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>LP_MoresCreekArm_Depth_ContoursShapefile.jpg</browsen>
+      <browsed>Thumbnail JPG image</browsed>
+      <browset>JPG</browset>
+    </browse>
+    <datacred>Please recognize the U.S. Geological Survey (USGS) and Idaho Department of Water Resources for use of this data. Funding provided by the Idaho Department of Water Resources and USGS.</datacred>
+    <crossref>
+      <citeinfo>
+        <origin>Hundt, S.A.</origin>
+        <origin>Bartolino, J.R.</origin>
+        <pubdate>2022</pubdate>
+        <title>Groundwater Flow Model for the Treasure Valley aquifer system, southwestern Idaho</title>
+        <geoform>publication</geoform>
+        <serinfo>
+          <sername>U.S. Geological Survey Professional Paper</sername>
+          <issue>xxxx</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Reston, Virginia</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/xxxx</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No formal attribute accuracy tests were conducted for the depth contours.</attraccr>
+    </attracc>
+    <logic>No formal logical accuracy tests were conducted.</logic>
+    <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>A formal accuracy assessment of the horizontal positional information in the data set has not been conducted. </horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>A formal accuracy assessment of the vertical positional information in the dataset has not been conducted. </vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc></procdesc>
+        <procdate></procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>1603</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Transverse_Mercator</mapprojn>
+          <mapprojp>
+            <stdparll>0.0</stdparll>
+            <stdparll>0.0</stdparll>
+            <longcm>-114.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>2500000.0</feast>
+            <fnorth>1200000.0</fnorth>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.6096</absres>
+            <ordres>0.6096</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North_American_Datum_1983</horizdn>
+        <ellips>GRS_1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>observation_wells.shp Attribute Table</enttypl>
+        <enttypd>Table containing attribute information associated with the data set.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>tvgwfm_nam</attrlabl>
+        <attrdef>Descriptive name for observation well</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <udom>Descriptive name for observation well</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>intervals</attrlabl>
+        <attrdef>Depth intervals of screens or well openings. </attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <udom>Depth intervals of screens or well openings in feet below ground surface.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>screen_max</attrlabl>
+        <attrdef>Maximum screen altitude in feet.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1480.4</rdommin>
+            <rdommax>3622.5458984375</rdommax>
+            <attrunit>feet</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>screen_min</attrlabl>
+        <attrdef>Minimum screen interval in feet</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1410.4</rdommin>
+            <rdommax>3607.5458984375</rdommax>
+            <attrunit>feet</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>screen1</attrlabl>
+        <attrdef>Length of the screened interval in model layer 1, in feet.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>392.0</rdommax>
+            <attrunit>feet</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>screen2</attrlabl>
+        <attrdef>Length of the screened interval in model layer 2, in feet.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>252.0</rdommax>
+            <attrunit>feet</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>screen3</attrlabl>
+        <attrdef>Length of the screened interval in model layer 3, in feet.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>190.0</rdommax>
+            <attrunit>feet</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>screen4</attrlabl>
+        <attrdef>Length of the screened interval in model layer 4, in feet.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>244.43130434782597</rdommax>
+            <attrunit>feet</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>screen5</attrlabl>
+        <attrdef>Length of the screened interval in model layer 5, in feet.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>252.5086926286508</rdommax>
+            <attrunit>feet</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>screen6</attrlabl>
+        <attrdef>Length of the screened interval in model layer 6, in feet.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>427.5708462501084</rdommax>
+            <attrunit>feet</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>obs_base</attrlabl>
+        <attrdef>Base name used in PEST files for any observation targets for this well.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <udom>Base name used in PEST files for any observation targets for this well.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>This file provides the locations for observation wells that are located within the model area along with name and screened interval information. </eaover>
+      <eadetcit>U.S. Geological Survey</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>GS ScienceBase</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data for other purposes, nor on all computer systems, nor shall the act of distribution constitute any such warranty.</distliab>
+    <stdorder>
+      <digform><digtinfo>
+          <formname>Digital Data</formname>
+        </digtinfo>
+        <digtopt><onlinopt><computer><networka><networkr>https://doi.org/10.5066/P9U6OOPH</networkr></networka></computer></onlinopt></digtopt></digform>
+      <fees>None. This dataset is provided by USGS as a public service.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20220830</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Stephen A Hundt</cntper>
+          <cntorg>U.S. Geological Survey, NW-PACIFIC ISLAND REG</cntorg>
+        </cntperp>
+        <cntpos>Hydrologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>230 Collins Road</address>
+          <city>Boise</city>
+          <state>ID</state>
+          <postal>83702</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>208-387-1390</cntvoice>
+        <cntfax>208-387-1372</cntfax>
+        <cntemail>shundt@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

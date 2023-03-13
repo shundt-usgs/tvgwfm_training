@@ -1,0 +1,15 @@
+obsnme,river,from_rm,to_rm,seg_name
+riv01,Boise River,0.0,4.18,parma to snake
+riv02,Boise River,4.2,32.52,middleton to parma
+riv03,Boise River,32.54,51.6,glenwood to middleton
+riv04,Boise River,51.61,67.8,diversion dam to glenwood
+riv03,Boise River South Channel,0.0,7.5,glenwood to middleton
+riv05,Payette River,0.0,4.18,payette to snake
+riv06,Payette River,4.2,25.28,letha to payette
+riv07,Payette River,25.3,38.52,emmett to letha
+riv08,Snake River,0.0,26.16,nyssa to weiser
+riv09,Snake River,26.16,53.5,break1 to nyssa
+riv10,Snake River,53.5,64.0,break2 to break1
+riv11,Snake River,64.0,75.0,break3 to break2
+riv12,Snake River,75.0,85.0,break4 to break3
+riv13,Snake River,85.0,103.3,murphy to break4
